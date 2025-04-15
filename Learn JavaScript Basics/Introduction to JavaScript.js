@@ -33,3 +33,6 @@ console.log(0.2708 * 100);
 //6/10: String Concatenation
 console.log('Hello' + 'World')
 console.log('Hello' + ' ' + 'World')
+
+//7/10: Properties
+console.log('Teaching the world how to code'.length);
