@@ -10,3 +10,12 @@ console.log(numOfSlices);
 let changeMe = true;
 changeMe = false;
 console.log(changeMe);
+
+//4/10: Create a Variable: const
+const entree = 'Enchiladas';
+console.log(entree);
+entree = 'Tacos';//Should get TypeError: Assignment to constant variable.
+/* Hint quirk:
+const testing;
+Should say: SyntaxError: Missing initializer in const declaration
+*/
