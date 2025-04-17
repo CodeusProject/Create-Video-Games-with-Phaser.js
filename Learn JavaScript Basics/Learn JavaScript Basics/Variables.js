@@ -1,7 +1,8 @@
 //1/10: Variables
 
 //2/10: Create a Variable: var
-var favoriteFood = 'pizza'; //or favouriteFood if you're using British English, only the results matter. fmclcmelLKD is another possible name.
+var favouriteFood = 'pizza'; /*or favoriteFood following American English(like in the course), only the results matter. 
+fmclcmelLKD is another possible name.*/
 var numOfSlices = 8;
 console.log(favoriteFood);
 console.log(numOfSlices);
@@ -19,3 +20,23 @@ entree = 'Tacos';//Should get TypeError: Assignment to constant variable.
 const testing;
 Should say: SyntaxError: Missing initializer in const declaration
 */
+
+//5/10: Mathematical Assignment Operators
+let levelUp = 10;
+let powerLevel = 9001;
+let multiplyMe = 32;
+let quarterMe = 1152;
+
+// Use the mathematical assignments in the space below:
+
+levelUp += 5;
+powerLevel -= 100;
+multiplyMe *= 11;
+quarterMe /= 4;
+
+// These console.log() statements below will help you check the values of the variables.
+// You do not need to edit these statements. 
+console.log('The value of levelUp:', levelUp); 
+console.log('The value of powerLevel:', powerLevel); 
+console.log('The value of multiplyMe:', multiplyMe); 
+console.log('The value of quarterMe:', quarterMe);
