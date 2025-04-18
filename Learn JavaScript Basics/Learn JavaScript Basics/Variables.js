@@ -50,3 +50,8 @@ lostDollar --;
 //7/10: String Concatenation with Variables
 let favoriteAnimal = 'penguin';
 console.log('My favorite animal: ' + favoriteAnimal)
+
+//8/10: String Interpolation
+let myName = 'Gabriel';
+let myCity = 'London';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
