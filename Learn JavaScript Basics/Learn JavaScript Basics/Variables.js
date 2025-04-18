@@ -55,3 +55,20 @@ console.log('My favorite animal: ' + favoriteAnimal)
 let myName = 'Gabriel';
 let myCity = 'London';
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+
+//9/10: typeof operator
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
+
+//10/10: Review Variables
+
+
+
+
+
+
+
+
+
